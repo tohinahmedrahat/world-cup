@@ -87,6 +87,10 @@ main {
   cursor: pointer;
   border: none;
 }
+.match-navigation button a{
+  text-decoration: none;
+  color:#161616 ;
+}
 /* active button style  */
 .active {
   background-image: linear-gradient(
@@ -106,6 +110,16 @@ main {
   border: 1px solid #e8e8e8;
   margin-bottom: 20px;
   border-radius: 10px;
+}
+.flag{
+  display: flex;
+  padding: 20px;
+}
+.flag span{
+  margin: 20px;
+}
+.match p{
+  margin-left: 20px;
 }
 .match img {
   width: 100%;
@@ -128,7 +142,6 @@ main {
 }
 .match-duration {
   display: flex;
-  margin-left: 20px;
 }
 .match-duration p {
   margin-right: 30px;
